@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 apt install build-essential
 apt install emacs
@@ -11,5 +11,5 @@ apt-get upgrade
 
 git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 mv em /usr/bin
-rm "$0"
-mv * ..
+# rm "$0"
+mv * ~
